@@ -66,7 +66,7 @@ config :bingo_hall, BingoHallWeb.Endpoint,
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
 
-config :bingo_hall, GigalixirGettingStartedWeb.Endpoint,
+config :bingo_hall, BingoHallWeb.Endpoint,
   load_from_system_env: true,
   http: [port: {:system, "PORT"}], # Needed for Phoenix 1.2 and 1.4. Doesn't hurt for 1.3.
   server: true, # Without this line, your app will not start the web server!
