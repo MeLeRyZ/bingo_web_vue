@@ -30,13 +30,13 @@ environment :dev do
   # dev mode.
   set dev_mode: true
   set include_erts: false
-  set cookie: :"Kbjbv!Xq4DNdJVhEm<FmMAE$%}}i%]v5Ouy_RS{qJwS6(s2Z]Qo7?yGIeK,No,;?"
+  set cookie: :"d:x$wI4c[3U_05J<G}cTpV$%z7Zpl.@r$tPP6FL_cFAD_utJnYs9t^QMZ`BBl$H]"
 end
 
 environment :prod do
   set include_erts: true
   set include_src: false
-  set cookie: :"y&q)}FJfiOJWZ6|n(ZODm}%z.?*6;!GD>H!XX]h1RwT1&0[Mz%K5h(nK<]xQjz|n"
+  set cookie: :"D48C${Ku3Hb;vswS{RvW>m2XKqD,s>D@FcltWEu6`s;MB}Hi(Ze;5uthWayNuXNL"
 end
 
 # You may define one or more releases in this file.
