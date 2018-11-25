@@ -28,15 +28,15 @@ environment :dev do
   # It is recommended that you build with MIX_ENV=prod and pass
   # the --env flag to Distillery explicitly if you want to use
   # dev mode.
-  # set dev_mode: true
+  set dev_mode: true
   set include_erts: false
-  set cookie: :"h:,;$SCZ?WELv/pgB]^jiCh$MUbj$bG/YHJ|^RNqkS`eCv7_HI!|P^E7eN<IQUhr"
+  set cookie: :"amECto:8ms5a$f}PA|4uQ)Pt]HtFiDy,PcY`[1s|F|FiTrJnw0?RbTHie~oPB|,!"
 end
 
 environment :prod do
   set include_erts: true
   set include_src: false
-  set cookie: :"6~K85k<>%h<<|!L.o2BifP4TBKUidxxFdBNL%rqZTfJi@$rm!nZ.7ZDq,S2sMm]["
+  set cookie: :"<Yn5vh!e&!~GxO]Q3MDbm=?=xQ1]o6lT_Nn89B]M~A_pm,([tLG4E)p2IL~xMYJ`"
 end
 
 # You may define one or more releases in this file.
